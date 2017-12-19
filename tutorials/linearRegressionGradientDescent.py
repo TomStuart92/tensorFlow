@@ -8,8 +8,6 @@ from sklearn.preprocessing import StandardScaler
 # set tensorflow log level to error
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-# we can use the normal equation to provide an analytical solution to a linear regression:
-
 # set up training data
 housing = fetch_california_housing()
 m, n = housing.data.shape
