@@ -2,3 +2,4 @@
 *.iml
 tensorflow/*
 .DS_Store
+tmp/*
